@@ -13,6 +13,13 @@ import java.util.List;
 
 public class CartControllerTest {
 
+    public class App {
+        public static void main(String[] args)throws Exception {
+            CarController controller = new CarController();
+            
+        }
+    }
+
     private CarController controller;
 
     @BeforeEach
